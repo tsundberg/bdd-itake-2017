@@ -14,7 +14,7 @@ public class CoffeeMachine {
         }
     }
 
-    public void pressCoffeeButton() {
+    public void orderCoffee() {
     }
 
     public boolean wasCoffeeServed() {

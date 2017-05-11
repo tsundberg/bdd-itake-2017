@@ -26,7 +26,7 @@ public class CoffeeMachineSteps {
 
     @When("^I press the coffee button$")
     public void i_press_the_coffee_button() throws Throwable {
-        coffeeMachine.pressCoffeeButton();
+        coffeeMachine.orderCoffee();
     }
 
     @Then("^I should be served a coffee$")
@@ -46,7 +46,7 @@ public class CoffeeMachineSteps {
 
     @Când("^apăs pe buton$")
     public void apăs_pe_buton() throws Throwable {
-        coffeeMachine.pressCoffeeButton();
+        coffeeMachine.orderCoffee();
     }
 
     @Atunci("^ar trebui să mi se dea o cafea$")
